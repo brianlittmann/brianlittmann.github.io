@@ -123,8 +123,6 @@ body {
   font-size: 2em; /* currently ems cause chrome bug misinterpreting rems on body element */
   line-height: 1.6;
   font-weight: 400;
-  /*font-family: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;*/
-  /*font-family: Helvetica, Arial, sans-serif;*/
   font-family: Georgia, Cambria, "Times New Roman", Times, serif;
   color: #222; }
 
@@ -362,28 +360,37 @@ there.
 /* Custom
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
+body {
+	background: #fffdf2;
+}
+
 h1:not(:first-of-type) {
 	margin-top: 80px;
 }
 
-.header-image {
-	width: 200px;
-	margin: 50px auto;
+h3 {
+	margin-top: 40px;
+	font-size: 3rem;
+}
+
+h4 {
+	font-size: 1.2em;
+	font-weight: 500;
+	margin-bottom: 5px;
+}
+
+.nacho {
+	margin: 80px auto 50px;
 	display: block;
 }
 
 .project-header {
 	display: flex;
 	align-items: center;
-	/*justify-content: center;*/
 }
 
 .project-header img {
 	margin-right: 15px;
-}
-
-.app-icon {
-	height: 60px;
 }
 
 .circle {
