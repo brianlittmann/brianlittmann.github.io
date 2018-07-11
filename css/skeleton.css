@@ -378,9 +378,10 @@ h4 {
 }
 
 .outline-btn {
+	font-family: Helvetica, Arial, sans-serif;
 	text-decoration: none;
 	border: 1px solid #888;
-	border-radius: 5px;
+	border-radius: 3px;
 	padding: 10px 20px;
 }
 
@@ -397,23 +398,28 @@ a.outline-btn:hover {
 	margin-right: 15px;
 }
 
-footer {
-	margin: 50px 0 25px;
-	padding: 25px 0;
-	border-top: 1px dashed rgba(60, 179, 113, .5);
-	border-bottom: 1px dashed rgba(60, 179, 113, .5);
-	display: flex;
-	align-items: center;
-	justify-content: center;
+.social-links a {
+	margin: 0 10px;
+	opacity: 0.5;
 }
 
 .social-links {
-	margin-bottom: 50px;
 	text-align: center;
 }
 
-.social-links a {
-	margin: 0 15px;
+.social-links a:hover {
+	opacity: 100;
+}
+
+.social-links a img {
+	width: 30px;
+	height: 30px;
+}
+
+footer p {
+	margin-top: 25px;
+	font-size: .75em;
+	text-align: center;
 }
 
 .avatar {
