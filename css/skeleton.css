@@ -120,11 +120,11 @@ are based on 10px sizing. So basically 1.5rem = 15px :) */
 html {
   font-size: 62.5%; }
 body {
-  font-size: 2em; /* currently ems cause chrome bug misinterpreting rems on body element */
+  font-size: 1.7em; /* currently ems cause chrome bug misinterpreting rems on body element */
   line-height: 1.6;
   font-weight: 400;
   font-family: Georgia, Cambria, "Times New Roman", Times, serif;
-  color: #222; }
+  color: #333; }
 
 
 /* Typography
@@ -158,9 +158,9 @@ p {
 /* Links
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 a {
-  color: #3cb371; }
+  color: #888; }
 a:hover {
-  color: #319b60; }
+  color: #000; }
 
 
 /* Buttons
@@ -315,7 +315,7 @@ hr {
   margin-top: 50px;
   margin-bottom: 50px;
   border-width: 0;
-  border-top: 1px dashed #3cb371; }
+  border-top: 1px dashed #888; }
 
 
 /* Clearing
@@ -334,7 +334,7 @@ hr {
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
 body {
-	background: #fffdf2;
+	background: #f0f0f0;
 }
 
 h1 {
@@ -353,14 +353,14 @@ h4 {
 }
 
 .hero {
-	background-color: #dcefda;
+	background-color: #202020;
 	padding: 60px 0;
 }
 
 .hero .profile {
 	display: flex;
 	align-items: center;
-	justify-content: center;
+	/*justify-content: center;*/
 }
 
 .hero h1 {
@@ -379,9 +379,13 @@ h4 {
 
 .outline-btn {
 	text-decoration: none;
-	border: 1px solid #3cb371;
+	border: 1px solid #888;
 	border-radius: 5px;
 	padding: 10px 20px;
+}
+
+a.outline-btn:hover {
+	border: 1px solid #000;
 }
 
 .project-header {
@@ -451,7 +455,7 @@ there.
 	}
 
 	.signature {
-		height: 85px;
+		height: 90px;
 	}
 }
 
