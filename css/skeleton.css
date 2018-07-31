@@ -158,9 +158,13 @@ p {
 /* Links
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 a {
-  color: #888; }
+  color: #888;
+  transition: all 0.3s ease 0s;
+}
+
 a:hover {
-  color: #000; }
+  color: #000;
+}
 
 
 /* Buttons
@@ -312,10 +316,10 @@ form {
 /* Misc
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 hr {
-  margin-top: 50px;
-  margin-bottom: 50px;
+  margin-top: 75px;
+  margin-bottom: 75px;
   border-width: 0;
-  border-top: 1px dashed #888; }
+  border-top: 1px dashed #bbb; }
 
 
 /* Clearing
@@ -338,7 +342,9 @@ body {
 }
 
 h1 {
-	margin-top: 80px;
+	font-size: 6rem;
+	margin: 40px 0;
+	line-height: 105%;
 }
 
 h3 {
@@ -353,60 +359,95 @@ h4 {
 }
 
 .hero {
-	background-color: #202020;
-	padding: 60px 0;
+	margin: 60px 0 120px;
 }
 
 .hero .profile {
 	display: flex;
 	align-items: center;
-	/*justify-content: center;*/
 }
 
 .hero h1 {
 	margin: 0;
 }
 
-.nacho {
-	height: 130px;
-	margin: 80px auto 50px;
-	display: block;
+.hero .avatar {
+	border-radius: 50%;
+	height: 80px;
 }
 
-.nacho-sm {
-	height: 110px;
+.hero .signature {
+	height: 50px;
+	margin-left: 15px;
 }
 
 .outline-btn {
 	font-family: Helvetica, Arial, sans-serif;
 	text-decoration: none;
-	border: 1px solid #888;
+	border: 1px solid #444;
 	border-radius: 3px;
-	padding: 7px 20px;
+	padding: 9px 36px;
 	display: inline-block;
 	margin-top: 5px;
+	color: #555;
 }
 
 a.outline-btn:hover {
-	border: 1px solid #000;
+	border: 1px solid #444;
+	background-color: #444;
+	color: #eee;
 }
 
 .project-header {
 	display: flex;
 	align-items: center;
+	margin: 150px 0 25px;
 }
 
 .project-header img {
 	margin-right: 15px;
 }
 
-.social-links a {
-	margin: 0 10px;
-	opacity: 0.5;
+.project-details {
+	margin-top: 40px;
+}
+
+.screenshot {
+	width: 100%;
+	margin: 15px 0 25px;
+}
+
+.footer-hat {
+	display: flex;
+	margin: 100px auto 0;
+	height: 50px;
+	opacity: 0.049;
+}
+
+.drop-shadow {
+	-webkit-filter: drop-shadow(0px 2px 10px #bbb);
+	filter: drop-shadow(0px 2px 10px #bbb);
+}
+
+footer {
+	padding: 75px 0;
+	text-align: center;
+	background: #eee;
+}
+
+footer p {
+	font-size: .75em;
+	color: #666;
+	margin: 0;
 }
 
 .social-links {
-	text-align: center;
+	margin-bottom: 25px;
+}
+
+.social-links a {
+	margin: 0 10px;
+	opacity: 0.5;
 }
 
 .social-links a:hover {
@@ -416,22 +457,6 @@ a.outline-btn:hover {
 .social-links a img {
 	width: 30px;
 	height: 30px;
-}
-
-footer p {
-	margin-top: 25px;
-	font-size: .75em;
-	text-align: center;
-}
-
-.avatar {
-	border-radius: 50%;
-	height: 80px;
-}
-
-.signature {
-	height: 70px;
-	margin-left: 15px;
 }
 
 
