@@ -1,0 +1,90 @@
+h2, h3, h4, h5, h6 {
+  margin-bottom: 2rem;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+h3 {
+	margin-top: 40px;
+	font-size: 3rem;
+}
+
+h4 {
+	font-size: 1.2em;
+	font-weight: 500;
+	margin-bottom: 5px;
+}
+
+.hero {
+	margin: 60px 0 120px;
+}
+
+.hero .profile {
+	display: flex;
+	align-items: center;
+}
+
+.hero h1 {
+	margin: 0;
+}
+
+.hero .avatar {
+	border-radius: 50%;
+	height: 90px;
+}
+
+.hero .signature {
+	height: 50px;
+	margin-left: 15px;
+}
+
+/* Larger than phablet (also point when grid becomes active) */
+@media (min-width: 550px) {
+	.avatar {
+		height: 110px;
+	}
+
+	.signature {
+		height: 90px;
+	}
+}
+
+.outline-btn {
+	font-family: Helvetica, Arial, sans-serif;
+	text-decoration: none;
+	border: 1px solid #444;
+	border-radius: 3px;
+	padding: 9px 36px;
+	display: inline-block;
+	margin-top: 5px;
+	color: #555;
+}
+
+a.outline-btn:hover {
+	border: 1px solid #444;
+	background-color: #444;
+	color: #eee;
+}
+
+.project-header {
+	display: flex;
+	align-items: center;
+	margin: 150px 0 25px;
+}
+
+.project-header img {
+	margin-right: 15px;
+}
+
+.project-details {
+	margin-top: 40px;
+}
+
+.screenshot {
+	width: 100%;
+	margin: 15px 0 25px;
+}
+
+.drop-shadow {
+	-webkit-filter: drop-shadow(0px 2px 10px #bbb);
+	filter: drop-shadow(0px 2px 10px #bbb);
+}

@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+  <head>
+    <% if build? %>
+      <!-- Global site tag (gtag.js) - Google Analytics -->
+      <script async src="https://www.googletagmanager.com/gtag/js?id=UA-122825011-1"></script>
+      <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'UA-122825011-1');
+      </script>
+    <% end %>
+
+    <meta charset="utf-8" />
+    <meta http-equiv='X-UA-Compatible' content='ie=edge' />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <title>Tidy Hippie<%= ' - ' + current_article.title unless current_article.nil? %></title>
+    <meta name="author" content="Brian Littmann">
+    <meta name="description" content="Engineer and admirer of timeless design">
+    <link rel="icon" type="image/png" href="favicon.png">
+
+    <%= feed_tag :atom, "#{blog.options.prefix.to_s}/feed.xml", title: "Atom Feed" %>
+    <%= stylesheet_link_tag "normalize" %>
+    <%= stylesheet_link_tag "skeleton" %>
+    <%= stylesheet_link_tag "site" %>
+    <%= javascript_include_tag "site" %>
+    <%= yield_content :head_bottom %>
+  </head>
+  <body>
+    <div class="container">
+      <nav>
+        <a href="/">Tidy Hippie</a>
+        <a href="https://instagram.com/tidyhippie" target="_blank" rel="noopener">Instagram</a>
+        <a href="https://www.youtube.com/channel/UCwx2i3HNU5k5wYNkdgoprTA" target="_blank" rel="noopener">YouTube</a>
+        <a href="https://www.linkedin.com/in/brianlittmann/" target="_blank" rel="noopener">LinkedIn</a>
+      </nav>
+
+      <div id="main" role="main">
+        <%= yield %>
+      </div>
+
+      <footer></footer>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,94 @@
+body {
+	background: #f8f8f8;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 300;
+}
+
+h1 {
+	line-height: 105%;
+}
+
+h2 {
+	font-size: 2.5rem;
+	color: #666;
+}
+
+h3 {
+	margin-top: 2em;
+}
+
+nav {
+	display: flex;
+  margin: 25px 0 100px;
+
+  a {
+		font-size: 1.5rem;
+		text-decoration: none;
+		
+		&:not(:last-child)::after {
+			content: '/';
+			margin: 0 10px;
+		}
+	}
+}
+
+@media (max-width: 400px) {
+	nav {
+		flex-direction: column;
+		margin-bottom: 50px;
+	}
+}
+
+footer {
+	margin-bottom: 200px;
+}
+
+blockquote {
+	margin: 0 0 2.5rem;
+	border-left: 1px solid #ddd;
+	padding: 1em 2em;
+
+	p {
+		margin: 0;
+		font-style: italic;
+	}
+}
+
+hr {
+	width: 50%;
+	margin: 5rem auto;
+	border-width: 0;
+	border-top: 1px solid #ddd;
+}
+
+
+/* Articles
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+// Index
+ul.articles {
+	a {
+		text-decoration: none;
+	}
+
+	.meta {
+		color: #bbb;
+		font-size: 1.5rem;
+		margin-left: 10px;
+	}
+}
+
+// Article
+.article-header {
+	margin-bottom: 2rem;
+
+	h1, h2 {
+		margin: 0 0 0.5rem;
+	}
+
+	.meta {
+		color: #999;
+		margin: 1.5rem 0 5rem;
+	}
+}
