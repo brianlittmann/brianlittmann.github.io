@@ -14,7 +14,7 @@
     <link rel="alternate" href="https://tidyhippie.com/turning-33/"/>
     <id>https://tidyhippie.com/turning-33/</id>
     <published>2020-12-31T16:00:00-08:00</published>
-    <updated>2021-01-05T18:01:41-08:00</updated>
+    <updated>2021-01-06T09:39:22-08:00</updated>
     <author>
       <name>Article Author</name>
     </author>
@@ -101,7 +101,7 @@
     <link rel="alternate" href="https://tidyhippie.com/portfolio-2018/"/>
     <id>https://tidyhippie.com/portfolio-2018/</id>
     <published>2018-08-09T17:00:00-07:00</published>
-    <updated>2021-01-05T18:01:41-08:00</updated>
+    <updated>2021-01-06T09:39:22-08:00</updated>
     <author>
       <name>Article Author</name>
     </author>
@@ -161,7 +161,7 @@
     <link rel="alternate" href="https://tidyhippie.com/turning-30/"/>
     <id>https://tidyhippie.com/turning-30/</id>
     <published>2018-01-21T16:00:00-08:00</published>
-    <updated>2021-01-05T18:01:41-08:00</updated>
+    <updated>2021-01-06T09:39:22-08:00</updated>
     <author>
       <name>Article Author</name>
     </author>
@@ -333,26 +333,6 @@
 &lt;/ul&gt;
 
 &lt;p&gt;Keep your friends close and let yourself be happy.&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>Who Am I?</title>
-    <link rel="alternate" href="https://tidyhippie.com/about/"/>
-    <id>https://tidyhippie.com/about/</id>
-    <published>1988-01-13T16:00:00-08:00</published>
-    <updated>2021-01-05T18:01:41-08:00</updated>
-    <author>
-      <name>Article Author</name>
-    </author>
-    <content type="html">
-&lt;div class="hero"&gt;
-  &lt;div class="profile"&gt;
-    &lt;img src="/images/profile.jpg" alt="Dashing young man" class="avatar" /&gt;
-    &lt;img src="/images/name.png" alt="Brian Littmann" class="signature" /&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;p&gt;My given name is Brian Littmann, but I am fond of the moniker Tidy Hippie. I grew up in Oklahoma but now live in Seattle. I like to think, and think a lot I do &amp;mdash; often too much. Sometimes I joke that the only identity I hold is one of non-adhesive identification. I don't know who I am, but still and will forever be attempting to answer the question "Who am I?"&lt;/p&gt;
 </content>
   </entry>
 </feed>
