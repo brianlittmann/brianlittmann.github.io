@@ -1,14 +1,42 @@
----
-title: Portfolio (2018)
-slug: portfolio-2018
-date: 2018-08-10
-layout: layout
----
+<!doctype html>
+<html>
+  <head>
+      <!-- Global site tag (gtag.js) - Google Analytics -->
+      <script async src="https://www.googletagmanager.com/gtag/js?id=UA-122825011-1"></script>
+      <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'UA-122825011-1');
+      </script>
 
-<% content_for :head_bottom do %>
-  <%= stylesheet_link_tag "portfolio_2018" %>
-<% end %>
+    <meta charset="utf-8" />
+    <meta http-equiv='X-UA-Compatible' content='ie=edge' />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <title>Tidy Hippie - Portfolio (2018)</title>
+    <meta name="author" content="Brian Littmann">
+    <meta name="description" content="Engineer and admirer of timeless design">
+    <link rel="icon" type="image/png" href="favicon.png">
 
+    <link rel="alternate" type="application/atom+xml" title="Atom Feed" href="/feed.xml" />
+    <link href="/stylesheets/normalize.css" rel="stylesheet" />
+    <link href="/stylesheets/skeleton.css" rel="stylesheet" />
+    <link href="/stylesheets/site.css" rel="stylesheet" />
+    <script src="/javascripts/site.js"></script>
+      <link href="/stylesheets/portfolio_2018.css" rel="stylesheet" />
+
+  </head>
+  <body>
+    <div class="container">
+      <nav>
+        <a href="/">Tidy Hippie</a>
+        <a href="https://instagram.com/tidyhippie" target="_blank" rel="noopener">Instagram</a>
+        <a href="https://www.youtube.com/channel/UCwx2i3HNU5k5wYNkdgoprTA" target="_blank" rel="noopener">YouTube</a>
+        <a href="https://www.linkedin.com/in/brianlittmann/" target="_blank" rel="noopener">LinkedIn</a>
+      </nav>
+
+      <div id="main" role="main">
+        
 <h1>Things of quality<br>have no fear of time.</h1>
 <p>I have a shirt with those words printed on the back. It reminds me of the fulfillment found in choosing the hard work of doing what's right. But perfection is an illusory attainment and I think the reprieve of balance comes when we simply focus on improving.</p>
 <p>In addition to philosophical quests, I've been working across the whole stack since 2012 building out the back and front ends of web-based desktop and mobile apps. On a given day I'd like to have asked clients the right questions, written timeless documentation, and made a few pixels happy.</p>
@@ -17,23 +45,23 @@ layout: layout
 <a href="mailto:brian.littmann@gmail.com" class="outline-btn">Let's Talk</a>
 
 <h3 class="project-header">
-  <%= image_tag 'portfolio_2018/newmedio.png', alt: "New Medio logo", height: "45px" %> New Medio
+  <img src="/images/portfolio_2018/newmedio.png" alt="New Medio logo" height="45px" /> New Medio
 </h3>
 <p>
   New Medio is where I spent the past six years as the lead developer building custom applications for a number of different clients. Some of these projects were internal company tools while others were consumer facing. Let's start with the former.
 </p>
 
 <p>A wine and spirits broker approached us asking for an overhaul of their spreadsheet-based purchase order and invoicing system. After many meetings digesting the business logic and tax reporting requirements, I built and delivered the internal Rails application that helps power their business averaging over $6 million in annual billings.</p>
-<%= image_tag 'portfolio_2018/screens/select.png', alt: "Purchase order system", class: "screenshot" %>
+<img src="/images/portfolio_2018/screens/select.png" alt="Purchase order system" class="screenshot" />
 
 <p class="project-details">Another internal application, this oil and gas company brought us detailed wireframes for a job dispatching application that would interface with an existing MySQL database and require cross-domain single sign-on functionality. I built out the Django-based web app with job management, drag and drop scheduling, and helped scale the system upon reaching bottlenecks.</p>
-<%= image_tag 'portfolio_2018/screens/dispatch.png', alt: "Job dispatcher", class: "screenshot" %>
+<img src="/images/portfolio_2018/screens/dispatch.png" alt="Job dispatcher" class="screenshot" />
 
 <p class="project-details">On one of our larger and more collaborative projects, the client wanted to create a new public-facing event registration platform that would eventually reach monthly revenues in excess of $1 million. We worked closely with their event coordinators and accounting teams to create the registration flows and meet reporting requirements, then progressively grew the platform by deploying many ancillary features such as event day tools, mobile ticketing, order adjustments, and comprehensive event management for company admins.</p>
-<%= image_tag 'portfolio_2018/screens/eventelf.png', alt: "Event registration", class: "screenshot" %>
+<img src="/images/portfolio_2018/screens/eventelf.png" alt="Event registration" class="screenshot" />
 
 <h3 class="project-header">
-  <%= image_tag 'portfolio_2018/podium.png', alt: "Podium Skate logo", height: "40px" %> Podium Skate
+  <img src="/images/portfolio_2018/podium.png" alt="Podium Skate logo" height="40px" /> Podium Skate
 </h3>
 <p>
   Podium is breaking ground in the skateboarding scene, providing a way for skaters around the world to compete against each other and earn points that could get them invited to national competitions.
@@ -43,10 +71,10 @@ layout: layout
   I designed and built the fully tested and documented Rails API including asynchronous video uploading and encoding through AWS, admin and competition judging areas, and was the lead developer for the Ionic 2 based iOS and Android apps.
 </p>
 
-<%= image_tag 'portfolio_2018/screens/podium.png', alt: "Podium Skate project", class: "screenshot" %>
+<img src="/images/portfolio_2018/screens/podium.png" alt="Podium Skate project" class="screenshot" />
 
 <h3 class="project-header">
-  <%= image_tag 'portfolio_2018/root.png', alt: "Root Tulsa logo", height: "35px" %> Root Tulsa
+  <img src="/images/portfolio_2018/root.png" alt="Root Tulsa logo" height="35px" /> Root Tulsa
 </h3>
 <p>
   Root Tulsa is an interconnected geolocation CMS that serves as a guide to life in Tulsa for both locals and visitors featuring places and events nearby.
@@ -56,4 +84,11 @@ layout: layout
   I was the lead architect and developer for the API backend, original mobile web app, and admin CMS. Many revisions to the app were made, including support for recurring events, and the project has continued to evolve since my last involvement.
 </p>
 
-<%= image_tag 'portfolio_2018/screens/root.png', alt: "Root Tulsa project", class: "screenshot" %>
+<img src="/images/portfolio_2018/screens/root.png" alt="Root Tulsa project" class="screenshot" />
+
+      </div>
+
+      <footer></footer>
+    </div>
+  </body>
+</html>

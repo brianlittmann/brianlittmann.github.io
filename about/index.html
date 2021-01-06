@@ -1,7 +1,6 @@
 <!doctype html>
 <html>
   <head>
-    <% if build? %>
       <!-- Global site tag (gtag.js) - Google Analytics -->
       <script async src="https://www.googletagmanager.com/gtag/js?id=UA-122825011-1"></script>
       <script>
@@ -10,22 +9,22 @@
         gtag('js', new Date());
         gtag('config', 'UA-122825011-1');
       </script>
-    <% end %>
 
     <meta charset="utf-8" />
     <meta http-equiv='X-UA-Compatible' content='ie=edge' />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-    <title>Tidy Hippie<%= ' - ' + current_article.title unless current_article.nil? %></title>
+    <title>Tidy Hippie - Who Am I?</title>
     <meta name="author" content="Brian Littmann">
     <meta name="description" content="Engineer and admirer of timeless design">
     <link rel="icon" type="image/png" href="favicon.png">
 
-    <%= feed_tag :atom, "#{blog.options.prefix.to_s}/feed.xml", title: "Atom Feed" %>
-    <%= stylesheet_link_tag "normalize" %>
-    <%= stylesheet_link_tag "skeleton" %>
-    <%= stylesheet_link_tag "site" %>
-    <%= javascript_include_tag "site" %>
-    <%= yield_content :head_bottom %>
+    <link rel="alternate" type="application/atom+xml" title="Atom Feed" href="/feed.xml" />
+    <link href="/stylesheets/normalize.css" rel="stylesheet" />
+    <link href="/stylesheets/skeleton.css" rel="stylesheet" />
+    <link href="/stylesheets/site.css" rel="stylesheet" />
+    <script src="/javascripts/site.js"></script>
+      <link href="/stylesheets/about.css" rel="stylesheet" />
+
   </head>
   <body>
     <div class="container">
@@ -37,7 +36,16 @@
       </nav>
 
       <div id="main" role="main">
-        <%= yield %>
+        
+<div class="hero">
+  <div class="profile">
+    <img src="/images/profile.jpg" alt="Dashing young man" class="avatar" />
+    <img src="/images/name.png" alt="Brian Littmann" class="signature" />
+  </div>
+</div>
+
+<p>My given name is Brian Littmann, but I am fond of the moniker Tidy Hippie. I grew up in Oklahoma but now live in Seattle. I like to think, and think a lot I do &mdash; often too much. Sometimes I joke that the only identity I hold is one of non-adhesive identification. I don't know who I am, but still and will forever be attempting to answer the question "Who am I?"</p>
+
       </div>
 
       <footer></footer>
