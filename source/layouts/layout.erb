@@ -18,7 +18,7 @@
     <title>Tidy Hippie<%= ' - ' + current_article.title unless current_article.nil? %></title>
     <meta name="author" content="Brian Littmann">
     <meta name="description" content="Engineer and admirer of timeless design">
-    <link rel="icon" type="image/png" href="favicon.png">
+    <link rel="icon" type="image/png" href="/favicon.png">
 
     <%= feed_tag :atom, "#{blog.options.prefix.to_s}/feed.xml", title: "Atom Feed" %>
     <%= stylesheet_link_tag "normalize" %>
