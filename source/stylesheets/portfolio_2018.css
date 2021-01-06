@@ -14,40 +14,6 @@ h4 {
 	margin-bottom: 5px;
 }
 
-.hero {
-	margin: 60px 0 120px;
-}
-
-.hero .profile {
-	display: flex;
-	align-items: center;
-}
-
-.hero h1 {
-	margin: 0;
-}
-
-.hero .avatar {
-	border-radius: 50%;
-	height: 90px;
-}
-
-.hero .signature {
-	height: 50px;
-	margin-left: 15px;
-}
-
-/* Larger than phablet (also point when grid becomes active) */
-@media (min-width: 550px) {
-	.avatar {
-		height: 110px;
-	}
-
-	.signature {
-		height: 90px;
-	}
-}
-
 .outline-btn {
 	font-family: Helvetica, Arial, sans-serif;
 	text-decoration: none;

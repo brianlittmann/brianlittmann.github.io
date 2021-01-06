@@ -1,0 +1,19 @@
+---
+title: 'Who Am I?'
+slug: about
+date: 1988-01-14
+layout: layout
+---
+
+<% content_for :head_bottom do %>
+  <%= stylesheet_link_tag "about" %>
+<% end %>
+
+<div class="hero">
+  <div class="profile">
+    <%= image_tag "profile.jpg", alt: "Dashing young man", class: "avatar" %>
+    <%= image_tag "name.png", alt: "Brian Littmann", class: "signature" %>
+  </div>
+</div>
+
+<p>My given name is Brian Littmann, but I am fond of the moniker Tidy Hippie. I grew up in Oklahoma but now live in Seattle. I like to think, and think a lot I do &mdash; often too much. Sometimes I joke that the only identity I hold is one of non-adhesive identification. I don't know who I am, but still and will forever be attempting to answer the question "Who am I?"</p>
