@@ -31,6 +31,8 @@ Matching my self-awareness with a sense of self-compassion has allowed to furthe
 
 > You don’t have to be anything else. — Mar 30
 
+---
+
 ### Recurring themes
 
 **Solitude**
@@ -59,7 +61,7 @@ It’s odd to feel displaced, whether relative to a group of people or the city 
 
 > On a board is one of the handful of places I feel most at home with myself. — May 30
 
-
+---
 
 ### Release
 

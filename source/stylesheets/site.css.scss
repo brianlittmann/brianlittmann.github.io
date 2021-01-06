@@ -15,10 +15,6 @@ h2 {
 	color: #666;
 }
 
-h3 {
-	margin-top: 2em;
-}
-
 nav {
 	display: flex;
   margin: 25px 0 100px;
@@ -53,6 +49,12 @@ blockquote {
 	p {
 		margin: 0;
 		font-style: italic;
+	}
+
+	hr {
+		margin: 2.5rem 0 0;
+		width: auto;
+		border: none;
 	}
 }
 
