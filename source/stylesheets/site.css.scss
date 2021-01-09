@@ -82,15 +82,21 @@ ul.articles {
 }
 
 // Article
-.article-header {
-	margin-bottom: 2rem;
+article {
+	.article-header {
+		margin-bottom: 2rem;
 
-	h1, h2 {
-		margin: 0 0 0.5rem;
+		h1, h2 {
+			margin: 0 0 0.5rem;
+		}
+
+		.meta {
+			color: #999;
+			margin: 1.5rem 0 5rem;
+		}
 	}
-
-	.meta {
-		color: #999;
-		margin: 1.5rem 0 5rem;
+	
+	img {
+		width: 100%;
 	}
 }
