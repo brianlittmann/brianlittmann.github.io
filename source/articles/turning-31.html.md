@@ -5,10 +5,6 @@ slug: turning-31
 date: 2019-01-05
 ---
 
-*Two years after setting out to write this second annual letter to myself am I just now finishing it at the beginning of 2021. It was close to done, but ironically enough I let the very thing I was trying to write about get in the way. There was a lot I wanted to communicate given so much changed for me in 2018 and I got stuck overthinking yet again. It may not be as cohesive as I’d like, but let’s allow it to be good enough.*
-
----
-
 *Notable from 2018:*
 
 - Left New Medio to take a year off
@@ -16,6 +12,10 @@ date: 2019-01-05
 - Copenhagen and Stockholm by myself
 - Moved to Seattle via a six-week summer road trip
 - Joined Alo Moves in December
+
+---
+
+*Two years after setting out to write this second annual letter to myself, I am just now finishing it at the beginning of 2021. It was close to done, but ironically enough I let the very thing I was trying to write about get in the way. There was a lot I wanted to communicate given so much change for me in 2018 and I got stuck overthinking yet again. It may not be as cohesive as I’d like, but let’s allow it to be good enough.*
 
 ---
 

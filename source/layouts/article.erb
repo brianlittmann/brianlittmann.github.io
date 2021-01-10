@@ -5,6 +5,7 @@
       <%= content_tag :h2, current_page.data.subtitle if current_page.data.subtitle.present? %>
       <p class="meta"><%= current_page.data.date.strftime('%B %Y') %></p>
     </div>
+
     <%= yield %>
   </article>
 <% end %>
