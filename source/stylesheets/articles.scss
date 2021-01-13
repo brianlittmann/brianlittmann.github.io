@@ -1,0 +1,32 @@
+// Index
+ul.articles {
+	a {
+		text-decoration: none;
+	}
+
+	.meta {
+		color: #bbb;
+		font-size: 1.5rem;
+		margin-left: 10px;
+	}
+}
+
+// Article
+article {
+	.article-header {
+		margin-bottom: 2rem;
+
+		h1, h2 {
+			margin: 0 0 0.5rem;
+		}
+
+		.meta {
+			color: #999;
+			margin: 1.5rem 0 5rem;
+		}
+	}
+	
+	img {
+		width: 100%;
+	}
+}
