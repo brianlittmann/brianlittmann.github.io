@@ -1,0 +1,18 @@
+ul.articles a {
+  text-decoration: none; }
+
+ul.articles .meta {
+  color: #bbb;
+  font-size: 1.5rem;
+  margin-left: 10px; }
+
+article .article-header {
+  margin-bottom: 2rem; }
+  article .article-header h1, article .article-header h2 {
+    margin: 0 0 0.5rem; }
+  article .article-header .meta {
+    color: #999;
+    margin: 1.5rem 0 5rem; }
+
+article img {
+  width: 100%; }
