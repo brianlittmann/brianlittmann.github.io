@@ -5,16 +5,97 @@
   <id>https://tidyhippie.com</id>
   <link href="https://tidyhippie.com"/>
   <link href="https://tidyhippie.com/feed.xml" rel="self"/>
-  <updated>2020-12-31T16:00:00-08:00</updated>
+  <updated>2021-01-13T16:00:00-08:00</updated>
   <author>
     <name>Brian Littmann</name>
   </author>
+  <entry>
+    <title>Workspaces</title>
+    <link rel="alternate" href="https://tidyhippie.com/workspaces/"/>
+    <id>https://tidyhippie.com/workspaces/</id>
+    <published>2021-01-13T16:00:00-08:00</published>
+    <updated>2021-01-13T16:26:02-08:00</updated>
+    <author>
+      <name>Article Author</name>
+    </author>
+    <content type="html">&lt;p&gt;
+  A good workspace is like the anti-depressant you don't have to take.&lt;br&gt;
+  It's an homage to your humanity and an incubator of inspiration.&lt;br&gt;
+  I've found simplicity to be a good ingredient.&lt;br&gt;
+  There is always more to be found.
+&lt;/p&gt;
+
+&lt;div class="postcard"&gt;
+  &lt;div class="row"&gt;
+    &lt;div class="six columns"&gt;
+      &lt;img src="/images/workspaces/2006-10-23-DormA.jpg" alt="ViewSonics" /&gt;
+    &lt;/div&gt;
+    &lt;div class="six columns"&gt;
+      &lt;img src="/images/workspaces/2006-10-23-DormB.jpg" alt="ACD20" /&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+
+  &lt;p&gt;Fanboy. College, October 2006.&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;div class="postcard"&gt;
+  &lt;div class="row"&gt;
+    &lt;div class="six columns"&gt;
+      &lt;img src="/images/workspaces/2010-07-12-601.jpg" alt="TV Dinner Desk" /&gt;
+    &lt;/div&gt;
+    &lt;div class="six columns"&gt;
+      &lt;img src="/images/workspaces/2011-04-17-AustinA.jpg" alt="PVC Desk" /&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+
+  &lt;p&gt;The standing desk. 601 and Austin, 2010-2011.&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;div class="postcard"&gt;
+  &lt;img src="/images/workspaces/2011-10-27-GradSchool.jpg" alt="Grad school" /&gt;
+  &lt;p&gt;Whiteboard. Grad school, October 2011.&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;div class="postcard"&gt;
+  &lt;img src="/images/workspaces/2012-08-12-Rockford.jpg" alt="IKEA" /&gt;
+  &lt;p&gt;IKEA. Tulsa studio, August 2012.&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;div class="postcard"&gt;
+  &lt;div class="row"&gt;
+    &lt;div class="six columns"&gt;
+      &lt;img src="/images/workspaces/2012-08-14-NewMedio.jpg" alt="Cinder blocks" /&gt;
+    &lt;/div&gt;
+    &lt;div class="six columns"&gt;
+      &lt;img src="/images/workspaces/2013-06-10-NewMedio.jpg" alt="Spool" /&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+
+  &lt;p&gt;Spool. New Medio, 2012-2013.&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;div class="postcard"&gt;
+  &lt;img src="/images/workspaces/2016-07-14-NewMedio.jpg" alt="Stool" /&gt;
+  &lt;p&gt;Stool. New Medio, July 2016.&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;div class="postcard"&gt;
+  &lt;img src="/images/workspaces/2018-10-04-4334.jpg" alt="Tycho" /&gt;
+  &lt;p&gt;Tycho. Palindrome, October 2018.&lt;/p&gt;
+&lt;/div&gt;
+
+&lt;div class="postcard"&gt;
+  &lt;img src="/images/workspaces/2018-12-19-1925.jpg" alt="Remote" /&gt;
+  &lt;p&gt;Remote. Seattle, December 2018.&lt;/p&gt;
+&lt;/div&gt;
+</content>
+  </entry>
   <entry>
     <title>Turning 33</title>
     <link rel="alternate" href="https://tidyhippie.com/turning-33/"/>
     <id>https://tidyhippie.com/turning-33/</id>
     <published>2020-12-31T16:00:00-08:00</published>
-    <updated>2021-01-13T08:24:29-08:00</updated>
+    <updated>2021-01-13T16:26:02-08:00</updated>
     <author>
       <name>Article Author</name>
     </author>
@@ -101,7 +182,7 @@
     <link rel="alternate" href="https://tidyhippie.com/turning-31/"/>
     <id>https://tidyhippie.com/turning-31/</id>
     <published>2019-01-04T16:00:00-08:00</published>
-    <updated>2021-01-13T08:24:29-08:00</updated>
+    <updated>2021-01-13T16:26:02-08:00</updated>
     <author>
       <name>Article Author</name>
     </author>
@@ -259,7 +340,7 @@
     <link rel="alternate" href="https://tidyhippie.com/portfolio-2018/"/>
     <id>https://tidyhippie.com/portfolio-2018/</id>
     <published>2018-08-09T17:00:00-07:00</published>
-    <updated>2021-01-13T08:24:29-08:00</updated>
+    <updated>2021-01-13T16:26:02-08:00</updated>
     <author>
       <name>Article Author</name>
     </author>
@@ -318,7 +399,7 @@
     <link rel="alternate" href="https://tidyhippie.com/turning-30/"/>
     <id>https://tidyhippie.com/turning-30/</id>
     <published>2018-01-21T16:00:00-08:00</published>
-    <updated>2021-01-13T08:24:29-08:00</updated>
+    <updated>2021-01-13T16:26:02-08:00</updated>
     <author>
       <name>Article Author</name>
     </author>
