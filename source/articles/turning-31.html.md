@@ -31,7 +31,7 @@ Past that, I've managed to bring along all the same habits I had in Tulsa, which
 
 ### Forgo comfort to find your groove.
 
-Last year around this time, I would spend my mornings at a coffee shop in Tulsa sipping slowly and typing even slower as I distilled many years of thoughts into not-so-novel philosophies. Turning the corner of 30, this great Millennial urge was bubbling up to positively disrupt my life and perhaps finally pursue some things I had merely made lists about for the past decade. And I did—at least to a degree.
+Last year around this time, I would spend my mornings at a coffee shop in Tulsa sipping slowly and typing even slower as I distilled many years of thoughts into not-so-novel philosophies. Turning the corner of 30, this great millennial urge was bubbling up to positively disrupt my life and perhaps finally pursue some things I had merely made lists about for the past decade. And I did—at least to a degree.
 
 Today, approximately 2,000 miles away from that coffee shop, I sit looking out at the Olympic mountains just beyond a Puget Sound still asleep under a blanket of fog from a place I now call home. But getting here wasn't easy for me. Remember Resistance? That thing which opposes any and all of your creative acts and motions to improve? Well it goes by another name, comfort, and that's not something I had much of in 2018.
 
