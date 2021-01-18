@@ -9,7 +9,7 @@ date: 2021-01-01
 - Pandemic and quarantine beginning in March
 - Treehouse trip in May
 - California road trip in August
-- Transition to engineering manager at Alo Moves in August
+- Transition to Engineering Manager at Alo Moves in August
 
 ---
 
