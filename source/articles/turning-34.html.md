@@ -32,7 +32,7 @@ What I wrote in Turning 32 is still all too applicable, and yet my relationship 
 
 > I can’t hold on to everything good. You must let go of something good to take hold of something new. Unattached desire, but desire nonetheless. — 10/31
 
-I admire minds that are able to articulate convoluted topics is such a clear way, like painting a scene with language. I’m still digesting the concept of desire, or rather attachment to desire, but here’s what I believe. Desire itself is a lovely thing. It’s a reminder of the inevitable change always happening and a hope for something new, something we might call better.
+I admire minds that are able to articulate convoluted topics in such a clear way, like painting a scene with language. I’m still digesting the concept of desire, or rather attachment to desire, but here’s what I believe. Desire itself is a lovely thing. It’s a reminder of the inevitable change always happening and a hope for something new, something we might call better.
 
 The trick is to let that desire sit in your open hand without grasping for it. It’s that ephemeral space between not enough and too much, where balance is kept by not being too loose and not being too tight.
 
